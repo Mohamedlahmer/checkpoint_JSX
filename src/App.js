@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import image from './sophie-src.jpg';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page'>
+      <div style={{border:'solid 1px black' , maxWidth:'100vw'}}>
+        <h1 className='tetle red'>Sophie Turner</h1>
+              <div className='img'>
+                <img src="/sophie-pub.jpg" alt="myimagepub" width='300px'/>
+                <img src={image} alt="myimagesrc" width='300 px'/>
+              </div>
+      </div>
+              <div>
+                  <video className='vid' width="854" height="480" controls>
+                  <source src="/sophievid.mp4" type="video/mp4"/> 
+                  </video>
+              </div>
     </div>
   );
 }

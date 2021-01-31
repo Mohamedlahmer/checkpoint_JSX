@@ -1,0 +1,33 @@
+.tetle{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    }
+    
+    .red{
+      margin: 0%;
+      color:black;
+      font-family:'Hachi Maru Pop', cursive;
+      font-weight: lighter;
+      background-color: #ece2e1;
+    }
+    
+    .page{
+      background-color: #aee1e1;
+    }
+
+
+    .img{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 1%;
+      background-color: #d3e0dc;
+    }
+    
+    .vid{
+      margin-top: 1%;
+      margin-left: 20%;
+      display: flex;
+      justify-content: center;
+      padding: 1%;
+    }
